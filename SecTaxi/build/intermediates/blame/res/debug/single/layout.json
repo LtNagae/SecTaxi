@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/samir/StudioProjects/SecTaxi/SecTaxi/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/samir/StudioProjects/SecTaxi/SecTaxi/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/SecTaxi/SecTaxi/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/root/StudioProjects/SecTaxi/SecTaxi/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/SecTaxi/SecTaxi/build/intermediates/res/merged/debug/layout/cameraint.xml",
+        "source": "/root/StudioProjects/SecTaxi/SecTaxi/src/main/res/layout/cameraint.xml"
+    },
+    {
+        "merged": "/home/samir/StudioProjects/SecTaxi/SecTaxi/build/intermediates/res/merged/debug/layout/cameraint.xml",
+        "source": "/home/samir/StudioProjects/SecTaxi/SecTaxi/src/main/res/layout/cameraint.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/SecTaxi/SecTaxi/build/intermediates/res/merged/debug/layout/corridaint.xml",
+        "source": "/root/StudioProjects/SecTaxi/SecTaxi/src/main/res/layout/corridaint.xml"
+    },
+    {
+        "merged": "/home/samir/StudioProjects/SecTaxi/SecTaxi/build/intermediates/res/merged/debug/layout/corridaint.xml",
+        "source": "/home/samir/StudioProjects/SecTaxi/SecTaxi/src/main/res/layout/corridaint.xml"
+    },
+    {
+        "merged": "/home/samir/StudioProjects/SecTaxi/SecTaxi/build/intermediates/res/merged/debug/layout/troubleint.xml",
+        "source": "/home/samir/StudioProjects/SecTaxi/SecTaxi/src/main/res/layout/troubleint.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/SecTaxi/SecTaxi/build/intermediates/res/merged/debug/layout/troubleint.xml",
+        "source": "/root/StudioProjects/SecTaxi/SecTaxi/src/main/res/layout/troubleint.xml"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/samir/StudioProjects/SecTaxi/SecTaxi/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher.png",
+        "source": "/home/samir/StudioProjects/SecTaxi/SecTaxi/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/root/StudioProjects/SecTaxi/SecTaxi/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher.png",
+        "source": "/root/StudioProjects/SecTaxi/SecTaxi/src/main/res/drawable-xhdpi/ic_launcher.png"
+    }
+]

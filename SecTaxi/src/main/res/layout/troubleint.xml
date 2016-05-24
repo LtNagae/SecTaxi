@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/bCalote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calote" />
+
+    <Button
+        android:id="@+id/bFuel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pane Seca" />
+
+    <Button
+        android:id="@+id/bEngine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Motor Danificado" />
+
+    <Button
+        android:id="@+id/bTire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pneu furado" />
+     
+     <Button
+         android:id="@+id/bTire1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Pneu Consertado" />
+
+     <Button
+         android:id="@+id/bFinish1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Finalizar relatório" />
+
+</LinearLayout>
