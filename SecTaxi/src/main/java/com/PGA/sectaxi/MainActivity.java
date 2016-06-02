@@ -1,5 +1,6 @@
 package com.PGA.sectaxi;
 
+import android.bluetooth.BluetoothAdapter;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.app.Activity;

@@ -43,17 +43,19 @@ public class Corrida extends Activity implements OnClickListener,LocationListene
         Button bPanic = (Button) findViewById(R.id.bPanic);
         Button bTrouble = (Button) findViewById(R.id.bTrouble);
         Button bStart = (Button) findViewById(R.id.bStart);
-        Button bStart1 = (Button) findViewById(R.id.bStart1);
         bFinish.setOnClickListener(this);
         bPanic.setOnClickListener(this);
         bTrouble.setOnClickListener(this);
         bStart.setOnClickListener(this);
-        bStart1.setOnClickListener(this);
         LocationManager locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
         Criteria criteria = new Criteria();
         String provider = locationManager.getBestProvider(criteria, true);
         location = locationManager.getLastKnownLocation(provider);
         BluetoothAdapter mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+        if (!mBluetoothAdapter.isEnabled()) {
+            Intent enableBluetooth = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
+            startActivityForResult(enableBluetooth, 0);
+        }
 
         //PLACEHOLDER CAMERA ---- NOVOCLIENTE BLUETOOTH
         //clientefoto = new Cliente("jpg","/Pictures/foto.jpg");
@@ -104,11 +106,17 @@ public class Corrida extends Activity implements OnClickListener,LocationListene
                 break;
             case R.id.bStart:
                 Log.i("info","ENVIANDO");
-                cam_bt1 = new BTFClient("envia",mmDevice);
-                break;
-            case R.id.bStart1:
-                Log.i("info","TIRANDO");
-                cam_bt = new BTClient("foto",mmDevice);
+                if(Singleton_teste.getInstance().getstatus() == false)
+                {
+                    Singleton_teste.getInstance().setstatus(true);
+                    cam_bt = new BTClient("foto",mmDevice);
+                };
+                while(Singleton_teste.getInstance().getstatus() == true){}
+                if(Singleton_teste.getInstance().getstatus() == false)
+                {
+                    Singleton_teste.getInstance().setstatus(true);
+                    cam_bt1 = new BTFClient("envia",mmDevice);
+                }
                 break;
 
 

@@ -53,6 +53,7 @@ public class BTFClient{
         if(!Thread.currentThread().isInterrupted() || !stat)
         {
 
+            Singleton_teste.getInstance().setstatus(false);
             try {
                 mmSocket.close();
             } catch (IOException e) {

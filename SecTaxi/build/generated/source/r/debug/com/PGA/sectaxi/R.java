@@ -18,18 +18,17 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f08000f;
-        public static final int bCalote=0x7f080009;
-        public static final int bEngine=0x7f08000b;
+        public static final int action_settings=0x7f08000e;
+        public static final int bCalote=0x7f080008;
+        public static final int bEngine=0x7f08000a;
         public static final int bFinish=0x7f080005;
-        public static final int bFinish1=0x7f08000e;
-        public static final int bFuel=0x7f08000a;
+        public static final int bFinish1=0x7f08000d;
+        public static final int bFuel=0x7f080009;
         public static final int bPanic=0x7f080006;
         public static final int bSair=0x7f080000;
         public static final int bStart=0x7f080001;
-        public static final int bStart1=0x7f080008;
-        public static final int bTire=0x7f08000c;
-        public static final int bTire1=0x7f08000d;
+        public static final int bTire=0x7f08000b;
+        public static final int bTire1=0x7f08000c;
         public static final int bTrouble=0x7f080003;
         public static final int button1=0x7f080004;
         public static final int preview=0x7f080002;

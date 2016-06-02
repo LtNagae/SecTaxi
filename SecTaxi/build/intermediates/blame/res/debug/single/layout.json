@@ -8,12 +8,12 @@
         "source": "/root/StudioProjects/SecTaxi/SecTaxi/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/root/StudioProjects/SecTaxi/SecTaxi/build/intermediates/res/merged/debug/layout/cameraint.xml",
-        "source": "/root/StudioProjects/SecTaxi/SecTaxi/src/main/res/layout/cameraint.xml"
-    },
-    {
         "merged": "/home/samir/StudioProjects/SecTaxi/SecTaxi/build/intermediates/res/merged/debug/layout/cameraint.xml",
         "source": "/home/samir/StudioProjects/SecTaxi/SecTaxi/src/main/res/layout/cameraint.xml"
+    },
+    {
+        "merged": "/root/StudioProjects/SecTaxi/SecTaxi/build/intermediates/res/merged/debug/layout/cameraint.xml",
+        "source": "/root/StudioProjects/SecTaxi/SecTaxi/src/main/res/layout/cameraint.xml"
     },
     {
         "merged": "/root/StudioProjects/SecTaxi/SecTaxi/build/intermediates/res/merged/debug/layout/corridaint.xml",

@@ -93,6 +93,7 @@ public class BTClient{
                         }
 
                         if (workDone) {
+                            Singleton_teste.getInstance().setstatus(false);
                             mmSocket.close();
                             break;
                         }
